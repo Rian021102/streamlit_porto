@@ -15,7 +15,7 @@ col1, col2, col3 = st.columns(3)
 
 # Project 1
 with col1:
-    st.image("/images/agHMSaj-e1611383647846.jpg", use_column_width=True)
+    st.image("images/agHMSaj-e1611383647846.jpg", use_column_width=True)
     st.subheader("Project: Anime Recommendation System Using SVD")
     st.markdown("Anime recommender system utilizing Singular Value Decomposition (SVD) technique. The recommendation system is built using the Surprise library, where it is trained based on user ratings. The model then predicts the rating for each unseen item, and the recommendations are sorted from the highest to lowest (top 10) predicted ratings for each user. The model is then deployed using HuggingFace Spaces.")
     st.markdown("[GitHub](https://github.com/Rian021102/anime-recommender-using-svd)")
@@ -23,14 +23,14 @@ with col1:
 
 # Project 2
 with col2:
-    st.image('/images/download.jpeg', use_column_width=True)
+    st.image('images/download.jpeg', use_column_width=True)
     st.subheader("Project: NLP Identification of Sarcastic Headlines")
     st.markdown("Natural Language Processing (NLP) project to identify sarcastic headlines. This projects utilizes NLP technique in identifying sarcasm in headlines. Built using Tensorflow framework and it's deployed using Streamlit cloud, where the data is being streamed from Hugging Face datasets")
     st.markdown("[GitHub](https://github.com/Rian021102/nlp_in_sarcasm_detection)")
     st.markdown("[Demo](https://detectingsarcasm.streamlit.app/)")
 
 with col3:
-    st.image('/images/pollution.jpeg')
+    st.image('images/pollution.jpeg')
     st.subheader("Project: Air Pollution Prediction")
     st.markdown("This project is an initiative, after the recent air pollution crisis in Jakarta, to predict the air pollution level in Jakarta. The data is taken from Jakarta goverment website that provides reading from stations in Jakarta. This initiative is to showcase Machine Learning Implementation that can predict the status of the pollution real time (unfortunately I have no access to realtime sensor), and prediction can be shared to the public.")
     st.markdown("[GitHub](https://github.com/Rian021102/jakarta-ispu)")
@@ -39,7 +39,7 @@ with col3:
 st.sidebar.header("About Me")
 
 # Add a photo
-st.sidebar.image("/images/IMG_1798.jpg", width=250)
+st.sidebar.image("images/IMG_1798.jpg", width=250)
 
 # Add markdown text
 st.sidebar.markdown("I am Rian Rachmanto, a data scientist and machine learning engineer with a background in the energy sector. This portfolio website is a showcase of my projects and highlights my expertise in developing comprehensive end-to-end machine learning solutions, including deployment.")
@@ -76,9 +76,9 @@ st.sidebar.subheader("Let's Connect!")
 col1, col2 = st.sidebar.columns(2)
 
 # Add LinkedIn image and link
-col1.image("/images/linkedin-icon-1024x1024-net2o24e.png", width=50)
+col1.image("images/linkedin-icon-1024x1024-net2o24e.png", width=50)
 col1.markdown("[LinkedIn](https://www.linkedin.com/in/rian-rachmanto/)")
 
 # Add GitHub image and link
-col2.image("/images/GitHub-Mark.png", width=50)
+col2.image("images/GitHub-Mark.png", width=50)
 col2.markdown("[GitHub](https://github.com/Rian021102)")
